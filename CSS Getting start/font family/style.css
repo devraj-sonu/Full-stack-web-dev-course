@@ -1,0 +1,27 @@
+h1{
+    font-weight:400;
+    text-decoration:wavy red line-through;
+    font-family:arial;
+}
+
+h2{
+    font-weight:normal;
+    text-decoration:double blue underline;
+    font-family: avant garde, didot, sans-serif;
+}
+
+h3{
+    text-decoration: overline;
+    font-family:impact;
+}
+
+p{
+    font-weight:400;
+    line-height: 2.5;
+    letter-spacing:1px;
+    font-size:20px;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,24 @@
+h1{
+    font-weight:400;
+    text-decoration:wavy red line-through;
+}
+
+h2{
+    font-weight:normal;
+    text-decoration:double blue underline;
+}
+
+h3{
+    text-decoration: overline;
+}
+
+p{
+    font-weight:400;
+    line-height: 2.5;
+    letter-spacing:1px;
+    font-size:20px;
+}
+
+a{
+    text-decoration: none;
+}

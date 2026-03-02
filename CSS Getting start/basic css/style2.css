@@ -1,0 +1,18 @@
+h1{
+    color : red;
+    background-color: black;
+}
+
+h2{
+    color : #000000;
+    background-color: #ffff00;
+}
+p{
+    color: rgb(0,255,0);
+    background-color: black;;
+}
+
+button{
+    color: aqua;
+    background-color: black;
+}
