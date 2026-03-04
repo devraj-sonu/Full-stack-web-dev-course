@@ -1,0 +1,9 @@
+p + h3{
+    text-decoration: underline;
+}
+
+
+/* after immidiate later the upvote class button is answer */
+.upvote + button{
+    background-color: cornflowerblue;
+}

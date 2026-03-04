@@ -1,0 +1,30 @@
+h3{
+    text-decoration: underline;
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+h3:hover{
+    text-decoration:none;
+}
+
+button:active{
+    background-color:hotpink;
+}
+
+p:active{
+    font-weight: bold;
+    color:green;
+}
+
+input[type="radio"]:checked + label{ /*label for sibling property to checked*/
+    color:red;
+    font-weight: bold;
+}
+
+div:nth-of-type(2n) {
+    background-color: aquamarine;
+}
