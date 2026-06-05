@@ -1,0 +1,10 @@
+div{
+    width: 400px;
+    height: 200px;
+    background-color: darkcyan;
+    margin: 10px auto;
+    background-image: url(Virat_Kohli_in_PMO_New_Delhi.jpg.webp);
+    background-size: contain;
+    color:white;
+    /* background-size: cover; */
+}
