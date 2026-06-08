@@ -1,0 +1,41 @@
+/* if we use three flex property together then the alignment of this property will be -
+flex-grow|flex-shrink|flex-basis */
+
+/* note : flex grow and flex basis two are both unitless */
+
+/* if there are two values written then the first one is flex-grow|and the second one is flex basis 
+ex: flex: 2 100px;*/
+
+#container{
+    height: 600px;
+    width: 60%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+#org{
+    align-self: flex-start;
+    flex: 2 2 100px;
+}
+
+#blu{
+    
+    flex-shrink: 1;
+}
+
+h1{
+    text-align: center;
+}
+
+#container div {
+    height: 100px;
+    width: 3000px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
