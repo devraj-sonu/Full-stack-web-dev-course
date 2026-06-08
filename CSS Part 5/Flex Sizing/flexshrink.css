@@ -1,0 +1,45 @@
+#container{
+    height: 600px;
+    width: 60%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* space evenly, space around,space between flex-start*/
+    /* flex-wrap: wrap; */
+    /* align-items: baseline; */
+    /* align items basically align the items the text as prority as compare to rhe width of the div. it align in the same text line */
+    align-content: flex-start;
+    /* flex-end, flex:center */
+    /* align-content:space-between,space around,evenly */
+}
+
+#org{
+    align-self: flex-start;
+    /* align-self property implement for indivisual element and the priority should be high from align item */
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+}
+
+#blu{
+    /* flex-basis: 400px; */
+    /* flex basis tell what the minimum size of an element as its main axis */
+    /* flex-grow: 1; */
+    /* if there is any extra space left in the main axis then the width occupy all the area */
+    flex-shrink: 1;
+    /* flex shrink apply if the container space is less then the element size then the element decrease as compare to its shrink values. */
+}
+
+h1{
+    text-align: center;
+}
+
+#container div {
+    height: 100px;
+    width: 3000px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
