@@ -1,0 +1,34 @@
+#container{
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* space evenly, space around,space between flex-start*/
+    /* flex-wrap: wrap; */
+    /* align-items: baseline; */
+    /* align items basically align the items the text as prority as compare to rhe width of the div. it align in the same text line */
+    align-content: flex-start;
+    /* flex-end, flex:center */
+    /* align-content:space-between,space around,evenly */
+}
+
+#org{
+    align-self: flex-end;
+    /* align-self property implement for indivisual element and the priority should be high from align item */
+}
+
+h1{
+    text-align: center;
+}
+
+#container div {
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
