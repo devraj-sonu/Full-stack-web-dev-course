@@ -1,0 +1,27 @@
+.container{
+    width:600px;
+    height:300px;
+    background-color:rgb(221, 237, 2);
+    display:grid;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px 30px;
+}
+
+
+.item{
+    text-align: center;
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+
+
+.one{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-column: 1/3;
+    /* grid-column: starting-column/ending column */
+    grid-column: 1/span 3;
+    /* means we have to start from 1 line then after 3 columns */
+}
