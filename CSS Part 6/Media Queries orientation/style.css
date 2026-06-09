@@ -1,0 +1,45 @@
+/* it helps to create responsive website */
+
+h1{
+    background-color: rgb(231, 224, 18);
+    border: 2px solid black;
+}
+
+
+@media(width: 400px) {
+    h1{
+        background-color: red;
+        color: white;
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+    }
+}
+
+@media (min-width: 400px) {
+    h1{
+        background-color: greenyellow;
+    }
+}
+
+@media (max-width: 200px) {
+    h1{
+        background-color: aqua;
+    }
+}
+
+@media (min-width: 200px) and (max-width:300) {
+    h1{
+        background-color: magenta;
+    }
+}
+
+/* when we put our device in landscape mode then it behave this-- */
+@media (orientation: landscape) {
+    h1{
+        background-color: aqua;
+        color: brown;
+    }
+}
