@@ -1,0 +1,35 @@
+.container{
+    width:600px;
+    height:300px;
+    background-color:rgb(221, 237, 2);
+    display:inline-grid;
+    /* to display a property in the same line of the container */
+    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-template-rows: repeat(3,1fr); */
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    justify-items: center;
+    /* justify items and justify self used for row horizontal direction */
+    align-items:center;
+    /* align-sef abd align items use for vertical direction */
+
+}
+
+.item{
+    width:100px;
+    height: 50px;
+    text-align: center;
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+
+.one{
+    /* justify-self: end; */
+    /* this property used for one indivisual item */
+    /* this item only moves that item to the end of its grid cell */
+    place-self: start;
+}
+
+.two{
+    grid-row: 1/span 3;
+}
