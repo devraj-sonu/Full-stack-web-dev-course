@@ -1,0 +1,20 @@
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: pink;
+}
+
+.one{
+    background-color: aquamarine;
+    position: relative;
+    z-index: 1;
+    /* z index: 1 means it is positive index and its position is upward to screen
+    and the value of z-index increse its  position to the upper level of the screen increase and the value of z index decrease or (-) the position is lower level*/
+}
+
+.two{
+    background-color: darksalmon;
+    position: relative;
+    bottom: 50px;
+}
