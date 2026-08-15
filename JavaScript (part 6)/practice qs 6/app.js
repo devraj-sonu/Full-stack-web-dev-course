@@ -1,13 +1,12 @@
-// function to return the sum of numbers from 1 to n
+// creates a string that returns the concatenation of all string in an array
 
+let str = ["hi", "hello", "bye", "!"];
 
-function getSum(n) {
-    let sum = 0;
+function concat(str) {
+    let result = "";
 
-    for(let i=1; i<=n; i++) {
-        sum += i;
+    for(let i=0; i<str.length; i++) {
+        result += str[i];
     }
-
-    return sum;
-    
+    return result;
 }
